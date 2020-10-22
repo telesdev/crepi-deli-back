@@ -1,0 +1,29 @@
+{
+  "name": "crepi-deli",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.18.4"
+  },
+  "description": "Cardápio de Crepiocas",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "serve": "nodemon server"
+  },
+  "author": "Thyago Teles",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.772.0",
+    "bcrypt": "^5.0.0",
+    "config": "^3.3.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
